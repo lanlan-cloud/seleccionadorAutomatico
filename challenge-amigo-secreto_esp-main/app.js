@@ -79,7 +79,7 @@ function sortearAmigo() {
     ulResultados.innerHTML = ""; // Limpiar resultados anteriores
 
     const li = document.createElement("li");
-    li.textContent = `🎉 Tu amigo secreto es: ${amigoSorteado} `😇;
+    li.textContent = `🎉 Tu amigo secreto es: ${amigoSorteado} `;
     ulResultados.appendChild(li);
 }
 
@@ -107,3 +107,4 @@ function mostrarResultados(sorteos) {
         const li = document.createElement("li");
     }
 }
+
